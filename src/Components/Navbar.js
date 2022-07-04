@@ -1,4 +1,5 @@
 import './Navbar.css';
+import CartWidget from './CartWidget';
 const NavBar = () =>{
     return(
         <nav className="navbar1 navbar-expand-lg navbar">
@@ -20,7 +21,7 @@ const NavBar = () =>{
                         <a className='enlase nav-link' href='#'>Deseados</a>
                     </li>
                     <li className='item-ultimo'>
-                        <a className='enlase nav-link' href='#'>Carrito</a>
+                        <CartWidget className="cart"/>
                     </li>
                 </ul>
             </div>
