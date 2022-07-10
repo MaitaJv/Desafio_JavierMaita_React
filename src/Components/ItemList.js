@@ -3,7 +3,6 @@ import Item from './Item'
 
 const ItemList = ({items}) => {
     const [loading, setLoading] = useState(true);
-  const TASKS = ['Tarea 1', 'Tarea 2', 'Tarea 3', 'Tarea 4', 'Tarea 5'];
 
   const onAddTask = ([str]) => {
     console.log(str);
@@ -18,7 +17,9 @@ const ItemList = ({items}) => {
   return (
     <div>
         {loading ? (
-        <h3>Cargando..</h3>
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
         ) : (
             <div className="main">
                 <div className="grid-container">
