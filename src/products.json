@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Arduino UNO R3",
+        "price":"$2500",
+        "description":"Placa de desarrollo para comenzar a introducirse en la programacion",
+        "category":"Arduino",
+        "image":"http://localhost:3000/static/media/arduino-venta.3b683c0339e30c80cf7b.webp",
+        "rating":{"rate":3.9, "count":120}
+    },
+
+    {
+        "id":2,
+        "title":"Arduino NANO",
+        "price":"$1500",
+        "description":"Todo el poder del arduino uno en una placa comprimida",
+        "category":"Arduino",
+        "image":"http://localhost:3000/static/media/arduino-nano-venta.9637cd6aa10302d2ae54.webp",
+        "rating":{"rate":4.1,"count":259}
+    },
+
+
+    {
+        "id":3,
+        "title":"ESP8266",
+        "price":"$1500",
+        "description":"Placa de desarrollo con modulo WiFi incluido",
+        "category":"ESP",
+        "image": "http://localhost:3000/static/media/Esp8266-venta.04dbce387fdec0815e53.webp",
+        "rating":{"rate":4.1,"count":259}
+    },
+
+
+    {
+        "id":4,
+        "title":"ESP32",
+        "price":"$1800",
+        "description":"Placa de desarrollo con modulo WiFi/Bluetooth incluido",
+        "category":"ESP",
+        "image":"http://localhost:3000/static/media/Esp32-venta.3b893cdf17f7468d4c5e.webp",
+        "rating":{"rate":2.1,"count":430}
+    },
+
+
+    {
+        "id":5,
+        "title":"Raspberry Pi 4",
+        "price":"$5800",
+        "description":"Placa de desarrolo para expertos",
+        "category":"Raspberry Pi",
+        "image":"http://localhost:3000/static/media/RP4-venta.b3858e33752f67b0ab02.webp",
+        "rating":{"rate":4.6,"count":400}
+    },
+
+
+    {
+        "id":6,
+        "title":"DHT11",
+        "price":"$600",
+        "description":"Sesor Humedad y Temperatura",
+        "category":"Sensores Y Modulos",
+        "image":"http://localhost:3000/static/media/DHT11-venta.c3e018f3bfc64e9e9b4e.webp",
+        "rating":{"rate":3.9,"count":70}
+    }
+
+]
